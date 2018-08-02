@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		62587F711F8323F700862746 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62587F701F8323F700862746 /* CoreLocation.framework */; };
+		62587F731F8332AB00862746 /* BluetoothView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62587F721F8332AB00862746 /* BluetoothView.swift */; };
+		62587FAF1F84794200862746 /* DetectBeaconController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62587FAE1F84794200862746 /* DetectBeaconController.swift */; };
 		6259FF2E1F819339003B43A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6259FF2D1F819339003B43A8 /* AppDelegate.swift */; };
 		6259FF301F819339003B43A8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6259FF2F1F819339003B43A8 /* ViewController.swift */; };
 		6259FF331F819339003B43A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6259FF311F819339003B43A8 /* Main.storyboard */; };
@@ -14,6 +17,9 @@
 		6259FF381F819339003B43A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6259FF361F819339003B43A8 /* LaunchScreen.storyboard */; };
 		6259FF431F819339003B43A8 /* payco_iPhoneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6259FF421F819339003B43A8 /* payco_iPhoneTests.swift */; };
 		6259FF4E1F819339003B43A8 /* payco_iPhoneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6259FF4D1F819339003B43A8 /* payco_iPhoneUITests.swift */; };
+		6259FF5D1F819B4B003B43A8 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6259FF5C1F819B4B003B43A8 /* CoreBluetooth.framework */; };
+		6259FF871F81BA1A003B43A8 /* SocketIOManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6259FF861F81BA1A003B43A8 /* SocketIOManager.swift */; };
+		90E32C195C3F80E6BCE856FA /* Pods_payco_iPhone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66034F84BE3157A02882BC68 /* Pods_payco_iPhone.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		14EA7B9D4CCBCD87A782F122 /* Pods-payco-iPhone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-payco-iPhone.release.xcconfig"; path = "Pods/Target Support Files/Pods-payco-iPhone/Pods-payco-iPhone.release.xcconfig"; sourceTree = "<group>"; };
+		62587F701F8323F700862746 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		62587F721F8332AB00862746 /* BluetoothView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothView.swift; sourceTree = "<group>"; };
+		62587FAE1F84794200862746 /* DetectBeaconController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectBeaconController.swift; sourceTree = "<group>"; };
 		6259FF2A1F819339003B43A8 /* payco-iPhone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "payco-iPhone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6259FF2D1F819339003B43A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6259FF2F1F819339003B43A8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +57,11 @@
 		6259FF491F819339003B43A8 /* payco-iPhoneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "payco-iPhoneUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6259FF4D1F819339003B43A8 /* payco_iPhoneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = payco_iPhoneUITests.swift; sourceTree = "<group>"; };
 		6259FF4F1F819339003B43A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6259FF5C1F819B4B003B43A8 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		6259FF861F81BA1A003B43A8 /* SocketIOManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketIOManager.swift; sourceTree = "<group>"; };
+		6259FF8D1F81BC28003B43A8 /* SocketIO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SocketIO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		66034F84BE3157A02882BC68 /* Pods_payco_iPhone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_payco_iPhone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB1DA69C81E0B944395F1C20 /* Pods-payco-iPhone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-payco-iPhone.debug.xcconfig"; path = "Pods/Target Support Files/Pods-payco-iPhone/Pods-payco-iPhone.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +69,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62587F711F8323F700862746 /* CoreLocation.framework in Frameworks */,
+				6259FF5D1F819B4B003B43A8 /* CoreBluetooth.framework in Frameworks */,
+				90E32C195C3F80E6BCE856FA /* Pods_payco_iPhone.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +99,8 @@
 				6259FF411F819339003B43A8 /* payco-iPhoneTests */,
 				6259FF4C1F819339003B43A8 /* payco-iPhoneUITests */,
 				6259FF2B1F819339003B43A8 /* Products */,
+				6259FF5B1F819B4B003B43A8 /* Frameworks */,
+				76582F717572237D0EDCC46D /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,10 +119,13 @@
 			children = (
 				6259FF2D1F819339003B43A8 /* AppDelegate.swift */,
 				6259FF2F1F819339003B43A8 /* ViewController.swift */,
+				62587F721F8332AB00862746 /* BluetoothView.swift */,
 				6259FF311F819339003B43A8 /* Main.storyboard */,
 				6259FF341F819339003B43A8 /* Assets.xcassets */,
 				6259FF361F819339003B43A8 /* LaunchScreen.storyboard */,
 				6259FF391F819339003B43A8 /* Info.plist */,
+				6259FF861F81BA1A003B43A8 /* SocketIOManager.swift */,
+				62587FAE1F84794200862746 /* DetectBeaconController.swift */,
 			);
 			path = "payco-iPhone";
 			sourceTree = "<group>";
@@ -125,6 +148,26 @@
 			path = "payco-iPhoneUITests";
 			sourceTree = "<group>";
 		};
+		6259FF5B1F819B4B003B43A8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				62587F701F8323F700862746 /* CoreLocation.framework */,
+				6259FF8D1F81BC28003B43A8 /* SocketIO.framework */,
+				6259FF5C1F819B4B003B43A8 /* CoreBluetooth.framework */,
+				66034F84BE3157A02882BC68 /* Pods_payco_iPhone.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		76582F717572237D0EDCC46D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DB1DA69C81E0B944395F1C20 /* Pods-payco-iPhone.debug.xcconfig */,
+				14EA7B9D4CCBCD87A782F122 /* Pods-payco-iPhone.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6259FF521F819339003B43A8 /* Build configuration list for PBXNativeTarget "payco-iPhone" */;
 			buildPhases = (
+				68D1390FC22A3E42EDE96D5F /* [CP] Check Pods Manifest.lock */,
 				6259FF261F819339003B43A8 /* Sources */,
 				6259FF271F819339003B43A8 /* Frameworks */,
 				6259FF281F819339003B43A8 /* Resources */,
+				4682BAF8F9A714E19DD20E70 /* [CP] Embed Pods Frameworks */,
+				1ABBE6D338980B9C8D436D05 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -194,6 +240,11 @@
 					6259FF291F819339003B43A8 = {
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					6259FF3D1F819339003B43A8 = {
 						CreatedOnToolsVersion = 9.0;
@@ -254,13 +305,72 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1ABBE6D338980B9C8D436D05 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-payco-iPhone/Pods-payco-iPhone-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4682BAF8F9A714E19DD20E70 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-payco-iPhone/Pods-payco-iPhone-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Socket.IO-Client-Swift/SocketIO.framework",
+				"${BUILT_PRODUCTS_DIR}/StarscreamSocketIO/StarscreamSocketIO.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SocketIO.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/StarscreamSocketIO.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-payco-iPhone/Pods-payco-iPhone-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		68D1390FC22A3E42EDE96D5F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-payco-iPhone-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6259FF261F819339003B43A8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				6259FF301F819339003B43A8 /* ViewController.swift in Sources */,
+				6259FF871F81BA1A003B43A8 /* SocketIOManager.swift in Sources */,
 				6259FF2E1F819339003B43A8 /* AppDelegate.swift in Sources */,
+				62587F731F8332AB00862746 /* BluetoothView.swift in Sources */,
+				62587FAF1F84794200862746 /* DetectBeaconController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +534,7 @@
 		};
 		6259FF531F819339003B43A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB1DA69C81E0B944395F1C20 /* Pods-payco-iPhone.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -439,6 +550,7 @@
 		};
 		6259FF541F819339003B43A8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14EA7B9D4CCBCD87A782F122 /* Pods-payco-iPhone.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

@@ -4,7 +4,17 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>payco-iPhone.xcscheme</key>
+		<key>Pods-payco-iPhone.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>Socket.IO-Client-Swift.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>StarscreamSocketIO.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>3</integer>

@@ -1,0 +1,6 @@
+framework module Pods_payco_iPhone {
+  umbrella header "Pods-payco-iPhone-umbrella.h"
+
+  export *
+  module * { export * }
+}
